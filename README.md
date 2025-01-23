@@ -54,6 +54,8 @@ The default configuration (which can be changed in software) is:
 
 You will need to download the [CircuitPython .uf2](https://circuitpython.org/board/raspberry_pi_pico/) file for the Pico, to install it:
 
+NOTE: this code will not work with the most recent versions of CircuitPython. You need CircuitPython 8.
+
 1. Attach the micro USB cable to the Pico whilst holding down the `BOOTSEL` button
 2. The Pico will mount as a `RPI-RP2` drive on your PC
 3. Copy the downloaded `.uf2` file to the drive
