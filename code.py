@@ -100,9 +100,9 @@ hue = {
 #   Pads configured as toggles will be removed from any groups
 #
 config = [
-    {"hue": hue["magenta"], "group": "scene", "keycodes_on": [Keycode.F13],                  "keycodes_off": None                        }, # C
-    {"hue": hue["magenta"], "group": "scene", "keycodes_on": [Keycode.F14],                  "keycodes_off": None                        }, # 8
-    {"hue": hue["magenta"], "group": "scene", "keycodes_on": [Keycode.F15],                  "keycodes_off": None                        }, # 4
+    {"hue": hue["magenta"], "group": "scene", "keycodes_on": [Keycode.SHIFT,   Keycode.F11],                  "keycodes_off": None                        }, # C
+    {"hue": hue["magenta"], "group": "scene", "keycodes_on": [Keycode.SHIFT,   Keycode.F12],                  "keycodes_off": None                        }, # 8
+    {"hue": hue["magenta"], "group": "scene", "keycodes_on": [Keycode.SHIFT,   Keycode.F15],                  "keycodes_off": None                        }, # 4
     {"hue": hue["magenta"], "group": "scene", "keycodes_on": [Keycode.F16],                  "keycodes_off": None                        }, # 0
     {"hue": hue["magenta"], "group": "scene", "keycodes_on": [Keycode.F17],                  "keycodes_off": None                        }, # D
     {"hue": hue["magenta"], "group": "scene", "keycodes_on": [Keycode.F18],                  "keycodes_off": None                        }, # 9
@@ -112,10 +112,10 @@ config = [
     {"hue": hue["magenta"], "group": "scene", "keycodes_on": [Keycode.F22],                  "keycodes_off": None                        }, # A
     {"hue": hue["magenta"], "group": "scene", "keycodes_on": [Keycode.F23],                  "keycodes_off": None                        }, # 6
     {"hue": hue["magenta"], "group": "scene", "keycodes_on": [Keycode.F24],                  "keycodes_off": None                        }, # 2
-    {"hue": hue["cyan"]   , "group": None,    "keycodes_on": [Keycode.SHIFT,   Keycode.F13], "keycodes_off": [Keycode.SHIFT, Keycode.F13]}, # F
+    {"hue": hue["cyan"]   , "group": None,    "keycodes_on": [Keycode.CONTROL, Keycode.COMMAND, Keycode.H], "keycodes_off": [Keycode.CONTROL, Keycode.COMMAND, Keycode.H]}, # F
     {"hue": hue["cyan"]   , "group": None,    "keycodes_on": [Keycode.SHIFT,   Keycode.F14], "keycodes_off": [Keycode.SHIFT, Keycode.F14]}, # B
-    {"hue": hue["green"]  , "group": None,    "keycodes_on": [Keycode.CONTROL, Keycode.F13], "keycodes_off": [Keycode.ALT,   Keycode.F13]}, # 7
-    {"hue": hue["red"]    , "group": None   , "keycodes_on": [Keycode.CONTROL, Keycode.F14], "keycodes_off": [Keycode.ALT,   Keycode.F14]}  # 3
+    {"hue": hue["green"]  , "group": None,    "keycodes_on": [Keycode.COMMAND, Keycode.E], "keycodes_off": [Keycode.COMMAND, Keycode.E]}, # 7
+    {"hue": hue["red"]    , "group": None   , "keycodes_on": [Keycode.COMMAND, Keycode.D], "keycodes_off": [Keycode.COMMAND, Keycode.D]}  # 3
 ]
 
 #config = [
